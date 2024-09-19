@@ -1,0 +1,116 @@
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  border-radius: 5px;
+}
+
+.jumbotron h1 {
+  font-size: 2.5rem;
+}
+
+.jumbotron p {
+  font-size: 1.25rem;
+}
+
+
+/* course card css */
+.course-card {
+  margin: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-card img {
+  height: 187px;
+  object-fit: cover;
+}
+
+.price-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 10px;
+}
+
+.new-price {
+  font-weight: bold;
+  color: #d9534f;
+}
+
+/* featured-courses css */
+.featured-courses {
+  padding: 40px 0;
+}
+
+.featured-courses h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* why-step-traders css */
+.why-step-traders {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.why-step-traders h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.why-step-traders p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.why-step-traders ul {
+  margin-top: 20px;
+}
+
+.why-step-traders ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.why-step-traders ul li .bi {
+  margin-right: 10px;
+}
+
+.why-step-traders .social-icons {
+  margin-top: 20px;
+}
+
+.why-step-traders .social-icons .bi {
+  font-size: 1.5rem;
+  color: #555;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.why-step-traders .social-icons .bi:hover {
+  color: #007bff;
+}
+
+.why-step-traders .video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.why-step-traders .video-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

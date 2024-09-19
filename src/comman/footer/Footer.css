@@ -1,0 +1,20 @@
+footer {
+    background-color: #505a64;
+    /* Dark background color */
+    color: #ffffff;
+    /* White text color */
+}
+
+footer a,
+footer .link {
+    color: #ffffff;
+    /* White link color */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+footer a:hover,
+footer .link:hover {
+    text-decoration: underline;
+    /* Underline links on hover */
+}

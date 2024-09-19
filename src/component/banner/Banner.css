@@ -1,0 +1,25 @@
+.banner-container {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 50px 0; /* Padding for top and bottom */
+  text-align: center;
+}
+
+.banner-section {
+  min-height: 600px;
+}
+
+.banner-title {
+  font-size: 2.5rem; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.banner-text {
+  font-size: 1.25rem; /* Larger text for description */
+  margin-bottom: 30px; /* Space below the text */
+}
+
+.banner-button {
+  padding: 10px 20px; /* Button padding */
+  font-size: 1.25rem; /* Larger button text */
+}

@@ -1,0 +1,13 @@
+.contactBannerRight {
+    top: 24%;
+    left: 65%;
+    right: 5%;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 800px) {
+    .contactBannerRight {
+        top: 42%;
+        left: 5%;
+    }
+}
