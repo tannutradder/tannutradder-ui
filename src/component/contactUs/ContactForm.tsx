@@ -21,7 +21,7 @@ function ContactForm() {
                     <h2 className='text-primary'>Get in Touch with Us</h2>
                     <div className="col-md-6 h-100 mt-2">
                         <div className='d-flex justify-content-center'>
-                            <img src="contactUs.svg" alt="Contact Us Image" className='img img-fluid' style={{ width: "55%" }} />
+                            <img src="contactUs.svg" alt="Contact Us" className='img img-fluid' style={{ width: "55%" }} />
                         </div>
                     </div>
                     <div className="col-md-6 h-100 mt-2">

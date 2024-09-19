@@ -6,7 +6,7 @@ function AboutUsComponent() {
                     <h3 className="mt-3 text-center text-primary">What We Offer</h3>
                     <div className="col-md-6">
                         <div style={{ height: "80%", width: "80%" }}>
-                            <img className="img img-fluid" src="aboutUsS1.jpeg" alt="What we offer image" />
+                            <img className="img img-fluid" src="aboutUsS1.jpeg" alt="What we offer" />
                         </div>
                     </div>
                     <div className="col-md-6">
@@ -32,7 +32,7 @@ function AboutUsComponent() {
                     </div>
                     <div className="col-md-5">
                         <div className="d-flex justify-content-center" style={{ height: "400px" }}>
-                            <img className="img img-fluid rounded" src="tannuImg.jpg" alt="Image Not Available" />
+                            <img className="img img-fluid rounded" src="tannuImg.jpg" alt="" />
                         </div>
                     </div>
                 </div>

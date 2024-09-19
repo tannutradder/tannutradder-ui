@@ -4,7 +4,7 @@ import './Banner.css';
 function Banner(props: any) {
     return (<>
         <div className='text-light text-center banner-section'>
-            <img src={props.imgPath} style={{ height: '700px', width: '100%' }} alt="Banner Image" />
+            <img src={props.imgPath} style={{ height: '700px', width: '100%' }} alt="Banner" />
         </div>
     </>
     );

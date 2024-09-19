@@ -8,7 +8,7 @@ function Contact() {
         <>
             {/* <Banner imgPath={imgPath} /> */}
             <div className='text-light text-center banner-section position-relative'>
-                <img src={imgPath} style={{ height: '700px', width: '100%' }} alt="Banner Image" />
+                <img src={imgPath} style={{ height: '700px', width: '100%' }} alt="Banner" />
                 <div className="position-absolute text-light zIndex-2" style={{ top: "50px", left: "30%", right: "30%", fontSize: "30px" }}>
                     Contact Us
                 </div>
