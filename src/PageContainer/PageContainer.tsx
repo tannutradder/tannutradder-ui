@@ -1,16 +1,16 @@
 import Footer from "../comman/footer/Footer";
 import Navbar from "../comman/navbar/Navbar";
 import Routing from "../routing/Routing";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 function PageContainer() {
     return (
         <>
-            <BrowserRouter>
+            <Router>
                 <Navbar />
                 <Routing />
                 <Footer />
-            </BrowserRouter>
+            </Router>
         </>
     );
 }
