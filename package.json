@@ -1,6 +1,6 @@
 {
   "name": "tannu-trader",
-  "homepage": "https://tannutradder.github.io/",
+  "homepage": "https://tannutradder.github.io/tannutradder-ui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
