@@ -11,11 +11,18 @@ function Routing() {
     return (
         <>
             <Routes>
-                <Route path="/" index element={<Home />} />
-                <Route path="about" element={<About />} />
-                <Route path="contact-us" element={<Contact />} />
+                <Route path="/" index element={
+                    <>
+                        <Home />
+                        <About />
+                        <Contact />
+                        <Course />
+                    </>
+                } />
+                {/* <Route path="about" element={<About />} />
+                <Route path="contact-us" element={<Contact />} /> */}
                 {/* <Route path="service" element={<Service />} /> */}
-                <Route path="course" element={<Course />} />
+                {/* <Route path="course" element={<Course />} /> */}
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </>
