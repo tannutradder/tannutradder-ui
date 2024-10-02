@@ -27,17 +27,19 @@ function CourseDetailComp(props: any) {
         </div> */}
         <Container className="mt-5">
             <Row>
-                <Col md={6}>
+                <Col md={12} xl={6}>
                     <Card>
                         <Card.Img variant="top" src={course.image} alt={course.title} />
                     </Card>
                 </Col>
-                <Col md={6}>
+                <Col md={12} xl={6}>
                     <Card>
                         <Card.Body>
                             <Card.Title>{course.title}</Card.Title>
                             <Card.Text>{course.description}</Card.Text>
-                            <Card.Text><strong>Price:</strong> ${course.price}</Card.Text>
+                            <Card.Text><strong>Price:</strong>
+                                <span className='text-primary'> {course.newPrice}/-</span>
+                            </Card.Text>
                             <Card.Text>
                                 {courseDetail.map((cd: string, index: number) => {
                                     return <li key={index}>{cd}</li>
@@ -45,6 +47,11 @@ function CourseDetailComp(props: any) {
                             </Card.Text>
                         </Card.Body>
                     </Card>
+                </Col>
+                <Col md={12}>
+                    <div className='fs-4 text-center text-info mt-2'>
+                        <strong>Please contact for purchase course.</strong>
+                    </div>
                 </Col>
             </Row>
         </Container>

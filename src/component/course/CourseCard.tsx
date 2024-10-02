@@ -4,8 +4,8 @@ import CourseDetailComp from './CourseDetailComp';
 
 // const CourseCard = ({ image, title, author, oldPrice, newPrice }: any) => {
 const CourseCard = (props: any) => {
-    const {course} = props;
-    
+    const { course } = props;
+
     const [show, setShow] = useState<boolean>(false);
     const [courseDetail, setCourseDetail] = useState<any>(null);
     const handleClose = () => {
@@ -31,7 +31,9 @@ const CourseCard = (props: any) => {
 
     return (<>
         <Card className="course-card">
-            <Card.Img variant="top" src={course.image} />
+            <div className=''>
+                <img className='img img-fluid' src={course.image} />
+            </div>
             <Card.Body>
                 <Card.Title>{course.title}</Card.Title>
                 <Card.Text></Card.Text>
@@ -43,7 +45,7 @@ const CourseCard = (props: any) => {
             </Card.Body>
         </Card>
 
-        <Modal show={show} onHide={handleClose} size='xl'>
+        <Modal show={show} onHide={handleClose} size='xl' style={{ height: '600px' }}>
             <Modal.Header closeButton>
                 <Modal.Title>Course Detail</Modal.Title>
             </Modal.Header>
