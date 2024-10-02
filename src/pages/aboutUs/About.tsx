@@ -4,7 +4,7 @@ function About() {
     const imgPath = "AboutUsBanner.jpg";
     return (
         <>
-            <div className='text-light text-center banner-section position-relative'>
+            {/* <div className='text-light text-center banner-section position-relative'>
                 <img src={imgPath} style={{ height: '700px', width: '100%' }} alt="Banner" />
                 <div className="position-absolute text-light zIndex-2" style={{ top: "50px", left: "30%", right: "30%", fontSize: "30px" }}>
                     About Us
@@ -15,6 +15,9 @@ function About() {
                         Our mission is to provide top-notch trading education that is accessible to everyone, regardless of experience level.
                     </p>
                 </div>
+            </div> */}
+             <div className="text-center">
+                <h3 style={{ color: "#ed143d" }}>About Us</h3>
             </div>
             <AboutUsComponent />
         </>

@@ -7,7 +7,7 @@ function Contact() {
     return (
         <>
             {/* <Banner imgPath={imgPath} /> */}
-            <div className='text-light text-center banner-section position-relative'>
+            {/* <div className='text-light text-center banner-section position-relative'>
                 <img src={imgPath} style={{ height: '700px', width: '100%' }} alt="Banner" />
                 <div className="position-absolute text-light zIndex-2" style={{ top: "50px", left: "30%", right: "30%", fontSize: "30px" }}>
                     Contact Us
@@ -16,7 +16,10 @@ function Contact() {
                     <p style={{ color: "#e8ffda" }}>Reach out to us via email <span className="text-primary">tpfxbesttrading@gmail.com</span>  with any questions or inquiries. We’re excited to answer your questions and arrange a meeting with you.
                     </p>
                 </div>
-            </div >
+            </div > */}
+            <div className="text-center">
+                <h3 style={{ color: "#ed143d" }}>Contact Us</h3>
+            </div>
             <ContactForm />
         </>
     );
