@@ -6,8 +6,10 @@ function Home() {
     const imgPath = "homePageBanner.jpeg"
     return (
         <>
-            <Banner imgPath={imgPath} />
-            <WhyStepTraders />
+            <div id="home">
+                <Banner imgPath={imgPath} />
+                <WhyStepTraders />
+            </div>
         </>
     );
 }

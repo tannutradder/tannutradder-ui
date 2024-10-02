@@ -17,10 +17,12 @@ function Contact() {
                     </p>
                 </div>
             </div > */}
-            <div className="text-center">
-                <h3 style={{ color: "#ed143d" }}>Contact Us</h3>
+            <div id="contactUs">
+                <div className="text-center">
+                    <h3 style={{ color: "#ed143d" }}>Contact Us</h3>
+                </div>
+                <ContactForm />
             </div>
-            <ContactForm />
         </>
     );
 }

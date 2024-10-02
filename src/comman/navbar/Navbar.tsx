@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 function Navbar() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-md bg-body-tertiary">
                 <div className="container-fluid">
                     {/* <a className="navbar-brand" href="#">Navbar</a> */}
                     <div style={{ width: "50px" }}>

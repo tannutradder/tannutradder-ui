@@ -11,18 +11,20 @@ function Course() {
                 <h3>Our Courses</h3>
                 <h6>Achieve Your Trading Goals with Our Structured Learning Path</h6>
             </div> */}
-            <div className="text-center">
-                <h3 style={{ color: "#ed143d" }}>Our Courses</h3>
+            <div id='course'>
+                <div className="text-center">
+                    <h3 style={{ color: "#ed143d" }}>Our Courses</h3>
+                </div>
+                <Container className="featured-courses">
+                    <Row>
+                        {courses?.map((course, index) => (
+                            <Col md={4} key={index}>
+                                <CourseCard course={course} />
+                            </Col>
+                        ))}
+                    </Row>
+                </Container>
             </div>
-            <Container className="featured-courses">
-                <Row>
-                    {courses?.map((course, index) => (
-                        <Col md={4} key={index}>
-                            <CourseCard course={course} />
-                        </Col>
-                    ))}
-                </Row>
-            </Container>
         </>
     );
 }

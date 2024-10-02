@@ -16,10 +16,12 @@ function About() {
                     </p>
                 </div>
             </div> */}
-             <div className="text-center">
-                <h3 style={{ color: "#ed143d" }}>About Us</h3>
+            <div id="about">
+                <div className="text-center">
+                    <h3 style={{ color: "#ed143d" }}>About Us</h3>
+                </div>
+                <AboutUsComponent />
             </div>
-            <AboutUsComponent />
         </>
     );
 }
