@@ -1,7 +1,6 @@
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import CourseCard from '../../component/course/CourseCard';
 import { courses } from '../../Utility/ConstantData/DummyData';
-import Banner from '../../component/banner/Banner';
 
 function Course() {
     return (
@@ -18,7 +17,7 @@ function Course() {
                 <Container className="featured-courses">
                     <Row>
                         {courses?.map((course, index) => (
-                            <Col md={4} key={index}>
+                            <Col className='mt-2' md={4} key={index}>
                                 <CourseCard course={course} />
                             </Col>
                         ))}
