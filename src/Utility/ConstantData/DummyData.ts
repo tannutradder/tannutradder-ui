@@ -3,8 +3,8 @@ export const courses = [
     image: 'basic_advance.jpeg',
     title: 'Basic to Advance course',
     author: '',
-    oldPrice: '₹15,000.00',
-    newPrice: '₹9999.00'
+    oldPrice: '₹17,000.00',
+    newPrice: '₹11999.00'
   },
   {
     image: 'candle_stick.jpeg',

@@ -52,6 +52,11 @@ function CourseDetailComp(props: any) {
                     <div className='fs-4 text-center text-info mt-2'>
                         <strong>Please contact for purchase course.</strong>
                     </div>
+                    <p className='text-center'>Purchase course go to our app
+                        <a href={"https://gyricu.on-app.in/app/home?orgCode=gyricu&referrer=utm_source=copy-link&utm_medium=tutor-app-referral"} target='_blank'>click here</a>
+                    </p>
+                    <p className='text-center text-secondary'> We are offering this course only for education, there will be no risk or responsibility on our.</p>
+                    <p className='text-center'>"There is no refund policy"</p>
                 </Col>
             </Row>
         </Container>

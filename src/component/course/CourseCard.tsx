@@ -30,7 +30,7 @@ const CourseCard = (props: any) => {
     }
 
     return (<>
-        <Card className="course-card">
+        <Card className="course-card h-100">
             <div className=''>
                 <img className='img img-fluid' src={course.image} />
             </div>
