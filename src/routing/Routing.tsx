@@ -6,6 +6,7 @@ import Contact from "../pages/contact/Contact";
 import Service from "../pages/service/Service";
 import Course from "../pages/course/Course";
 import NotFound from "../pages/not-found/NotFound";
+import FeaturedBooks from "../component/home/FeaturedBooks";
 
 function Routing() {
     return (
@@ -17,6 +18,7 @@ function Routing() {
                         <About />
                         <Contact />
                         <Course />
+                        <FeaturedBooks />
                     </>
                 } />
                 {/* <Route path="about" element={<About />} />

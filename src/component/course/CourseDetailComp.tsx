@@ -29,19 +29,19 @@ function CourseDetailComp(props: any) {
             <Row>
                 <Col md={12} xl={6}>
                     <Card>
-                        <Card.Img variant="top" src={course.image} alt={course.title} />
+                        <Card.Img variant="top" src={course?.image} alt={course?.title} />
                     </Card>
                 </Col>
                 <Col md={12} xl={6}>
                     <Card>
                         <Card.Body>
-                            <Card.Title>{course.title}</Card.Title>
-                            <Card.Text>{course.description}</Card.Text>
+                            <Card.Title>{course?.title}</Card.Title>
+                            <Card.Text>{course?.description}</Card.Text>
                             <Card.Text><strong>Price:</strong>
-                                <span className='text-primary'> {course.newPrice}/-</span>
+                                <span className='text-primary'> {course?.newPrice}/-</span>
                             </Card.Text>
                             <Card.Text>
-                                {courseDetail.map((cd: string, index: number) => {
+                                {courseDetail?.map((cd: string, index: number) => {
                                     return <li key={index}>{cd}</li>
                                 })}
                             </Card.Text>

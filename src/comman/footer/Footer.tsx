@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './Footer.css'; // Custom CSS for any additional styling
 
 function Footer() {
+    const currentYear = new Date().getFullYear(); // Get the current year
     return (
         <footer className="bg-dark text-white py-5">
             <div className='p-3 py-5'>
@@ -57,7 +58,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="text-center mt-3">
-                    <p className="mb-0">&copy; 2024 TANU TRADER. All rights reserved.</p>
+                    <p className="mb-0">&copy; {currentYear} TANU TRADER. All rights reserved.</p>
                 </div>
             </div >
         </footer >
