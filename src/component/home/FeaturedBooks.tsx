@@ -5,14 +5,9 @@ import BookCard from '../books/BookCard';
 
 const FeaturedBooks = () => {
   return (
-    <Container className="featured-courses">
-      <Row className="justify-content-between align-items-center mb-4">
-        <Col>
-          <h2>Featured Books</h2>
-        </Col>
-        <Col className="text-end">
-          <Button variant="primary">Browse Books</Button>
-        </Col>
+    <Container>
+      <Row className='mb-4'>
+        <h2 style={{ color: '#ed143d' }}>Featured Books</h2>
       </Row>
       <div className='row g-3'>
         {books?.map((book, index) => (
